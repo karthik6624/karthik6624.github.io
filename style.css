@@ -2,9 +2,13 @@ h2{
     color: blue;
 }
 
-th, td {
+th{
     padding: 20px;
-    color: blue;
+    color: red;
+    background-color: aquamarine;
+  }
+  td{
+    padding:20px;
   }
 
 p{
