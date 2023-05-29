@@ -1,1 +1,1 @@
-alert("Hello karthik!!Welcome Back")
+console.log("Being zero")
