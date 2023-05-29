@@ -6,3 +6,7 @@ th, td {
     padding: 20px;
     color: greenyellow;
   }
+
+p{
+    align-items: center;
+}
