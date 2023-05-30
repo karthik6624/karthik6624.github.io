@@ -1,4 +1,10 @@
 const p=document.getElementById('body')
 function searchWord(){
-    console.log("search");
+    let input=document.getElementById("input").value;
+    if(input!=''){
+        let regExp=new RegExp(input,"gi");
+        p.innerHTML=(p.textContent).replace(regExp,"<mark>$&</mark>")
+
+    }
+
 }
