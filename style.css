@@ -10,6 +10,10 @@ th{
 p{
     text-align: center;
 }
-.body{
-  background-color: paleturquoise;
+
+
+.tbl{
+  align-items: center;
+  align-content: center;
+
 }
