@@ -2,13 +2,13 @@ th{
     padding: 20px;
     color: red;
     background-color: aquamarine;
-    border: 1px solid;
   }
   td{
     padding:20px;
-    border: 1px solid black;
   }
-
+  .tbl, th, td {
+    border:1px solid black;
+  }
 p{
     text-align: center;
 }
