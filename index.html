@@ -38,10 +38,10 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <!-- <form class="d-flex" role="search">
               <input id="input" class="form-control me-2"   type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" id="bt" type="submit" onclick="SearchWord()">Search</button>
-            </form>
+            </form> -->
           </div>
         </div>
       </nav>
@@ -79,17 +79,17 @@
         <td style="border-right: 1px solid black;">Succesfully Completed 5 problems of the day</td>
        </tr>
     </table>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       const p=document.getElementById("body");
       function SearchWord(){
           let input=document.getElementById("input").value;
-          if(input!==''){
+          if(input!==""){
               let regExp=new RegExp(input,"gi");
               p.innerHTML=(p.textContent).replace(regExp,"<mark>$&</mark>")
       
           }
       
       }
-      </script>
+      </script> -->
 </body>
 </html>
