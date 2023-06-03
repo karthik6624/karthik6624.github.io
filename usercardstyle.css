@@ -1,8 +1,14 @@
+.container{
+    margin-left: 10px;
+}
+
+
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 30%;
     padding:10px 0 10px 10px;
     transition: 0.7s;
+    background-color: currentColor;
 
 }
 
