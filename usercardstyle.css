@@ -1,3 +1,8 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
 .name{
     font-size: 40px;
     font-weight: bold;
@@ -6,8 +11,8 @@
     margin-bottom: 0;
 }
 
-.designation{
-    font-size: 30px;
+.des{
+    font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 0;
     margin-bottom: 0;
