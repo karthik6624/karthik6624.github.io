@@ -6,8 +6,10 @@
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 30%;
-    padding:10px;
-    transition: 1s;
+    padding:10px 0px 10px 10px ;
+    transition:0.7s;
+    color:aliceblue;
+    transition:1s;
     color:blue;
 
 }
