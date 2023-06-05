@@ -11,8 +11,7 @@ var newuser=function(){
         displaydata=data1;
         isdata1=true;
     }
-}
 document.getElementById("myimage").src=displaydata.image;
 document.getElementById("myname").innerHTML=displaydata.name;
 document.getElementById("mydes").innerHTML=displaydata.designation;
-
+}
