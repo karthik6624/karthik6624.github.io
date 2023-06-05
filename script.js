@@ -13,4 +13,6 @@ var GenerateNewUser=function(){
     }
 }
 document.getElementById("myimage").src=displaydata.image;
+document.getElementById("myname").innerHTML=displaydata.name;
+document.getElementById("mydes").innerHTML=displaydata.designation;
 
