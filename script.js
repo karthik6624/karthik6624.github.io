@@ -2,7 +2,7 @@ var data1={image:"IMG_20210317_173101.jpg",name:"Karthik Kandi",designation:"Sof
 var data2={image:"Karthik.jpg",name:"Manoj",designation:"Architect"};
 var isdata1=true;
 var displaydata;
-var GenerateNewUser=function(){
+var generate_new_user=function(){
     if(isdata1){
         displaydata=data2;
         isdata1=false;
