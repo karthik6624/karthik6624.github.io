@@ -1,5 +1,5 @@
 var data1={image:"IMG_20210317_173101.jpg",name:"Siddarth",designation:"Software Intern"};
-var data2={image:"Karthik.jpg",name:"Manoj",designation:"Architect"};
+var data2={image:"IMG_20210317_173101.jpg",name:"Manoj",designation:"Architect"};
 var isdata1=true;
 var displaydata;
 var GenerateNewUser=function(){
