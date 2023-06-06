@@ -6,6 +6,6 @@ var newuser=function(){
         userinfo.username=data.results[0].login.username;
         document.getElementById("myimage").src=userinfo.image;
         document.getElementById("myname").innerHTML=userinfo.name;
-        document.getElementById("mydesignation").innerHTML=userinfo.username;
+        document.getElementById("mydes").innerHTML=userinfo.username;
     });
 }
