@@ -1,4 +1,4 @@
-var userinfo={name:"",image:"",username:""}
+var userinfo={name:"",image:"",username:""};
 var newuser=function(){
     fetch("https://randomuser.me/api").then((response)=>response.json()).then((data)=>{
         userinfo.name=data.results[0].name.first;
